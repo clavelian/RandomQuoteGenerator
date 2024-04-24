@@ -1,11 +1,13 @@
 import './App.css'
 import TextGenerateEffectDemo from './pages/TextGenerateEffectDemo'
 
-function App() {
 
+function App() {
+  
   return (
     <>
       <TextGenerateEffectDemo />
+
     </>
   )
 }
