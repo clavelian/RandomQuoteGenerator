@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import axios from "axios";
 
-const apiCall = () => {
+const getQuote = () => {
+  const [content, setContent] = useState("");
+  const [author, setAuthor] = useState("");
+
   const quoteGenerator = () => {
     axios
       .get("https://api.quotable.io/random")
       .then((response) => {
-        console.log(response.data.content, " - ", response.data.author);
+        setContent(response.data.content);
+        setAuthor(response.data.author);
       })
       .catch((error) => {
         console.log(error);
@@ -27,4 +31,4 @@ const apiCall = () => {
   );
 };
 
-export default apiCall;
+export default getQuote;
