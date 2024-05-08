@@ -1,6 +1,7 @@
 import './App.css'
 import TextGenerateEffectDemo from './pages/TextGenerateEffectDemo'
 import helloWorld from './pages/HelloWorld'
+import HeroHighlight from './pages/HeroHighlightDemo'
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
     <>
       <TextGenerateEffectDemo />
       <helloWorld />
+      <HeroHighlight />
     </>
   )
 }
