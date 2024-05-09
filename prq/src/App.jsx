@@ -1,15 +1,15 @@
 import './App.css'
 import TextGenerateEffectDemo from './pages/TextGenerateEffectDemo'
-import helloWorld from './pages/HelloWorld'
-import HeroHighlight from './pages/HeroHighlightDemo'
+// import HeroHighlightDemo from './pages/HeroHighlightDemo'
+import PlaceholdersAndVanishInputDemo from './pages/PlaceholdersAndVanishInputDemo'
 
 function App() {
   
   return (
     <>
       <TextGenerateEffectDemo />
-      <helloWorld />
-      <HeroHighlight />
+      {/* <HeroHighlightDemo /> */}
+      <PlaceholdersAndVanishInputDemo/>
     </>
   )
 }
