@@ -3,6 +3,7 @@ import TextGenerateEffectDemo from './pages/TextGenerateEffectDemo'
 // import HeroHighlightDemo from './pages/HeroHighlightDemo'
 // import PlaceholdersAndVanishInputDemo from './pages/PlaceholdersAndVanishInputDemo'
 import Quote from './services/api/QuoteGen'
+
 function App() {
   
   return (
