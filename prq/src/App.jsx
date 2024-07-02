@@ -3,6 +3,7 @@ import TextGenerateEffectDemo from './pages/TextGenerateEffectDemo'
 // import HeroHighlightDemo from './pages/HeroHighlightDemo'
 // import PlaceholdersAndVanishInputDemo from './pages/PlaceholdersAndVanishInputDemo'
 import Quote from './services/api/QuoteGen'
+import RandomAnimeQuote from './services/api/AnimeGen'
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       {/* <HeroHighlightDemo /> */}
       {/* <PlaceholdersAndVanishInputDemo/> */}
       <Quote />
+      <RandomAnimeQuote/>
     </>
   )
 }
